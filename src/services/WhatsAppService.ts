@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from "axios"
 
 export async function handleSendErrorToWhatsapp(errors: string | string[]): Promise<void> {
     if (typeof errors !== 'string') {

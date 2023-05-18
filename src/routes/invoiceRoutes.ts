@@ -1,8 +1,8 @@
-import {Router} from 'express';
-import {generateNewInvoice} from "../controllers/InvoiceController";
+import {Router} from 'express'
+import {generateNewInvoice} from "../controllers/InvoiceController"
 
-const router = Router();
+const router = Router()
 
-router.get('/', generateNewInvoice);
+router.get('/', generateNewInvoice)
 
-export default router;
+export default router

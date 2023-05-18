@@ -1,6 +1,6 @@
-import axios from "axios";
-import {handleSendErrorToWhatsapp, handleSendSuccessToWhatsapp} from "./WhatsAppService";
-import {InvoiceData} from "../types/invoice";
+import axios from "axios"
+import {handleSendErrorToWhatsapp, handleSendSuccessToWhatsapp} from "./WhatsAppService"
+import {InvoiceData} from "../types/invoice"
 
 async function handleRequestToGenerateInvoice(invoiceData: InvoiceData): Promise<void> {
     const API_URL: string = process.env.PM_API_URL as string

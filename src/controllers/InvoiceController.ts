@@ -1,7 +1,7 @@
-import {Request, Response} from "express";
-import {sendInvoice} from "../services/PrefeituraModernaService";
-import {formatCurrentDate, getCurrentMonth} from "../helpers";
-import {InvoiceData} from "../types/invoice";
+import {Request, Response} from "express"
+import {sendInvoice} from "../services/PrefeituraModernaService"
+import {formatCurrentDate, getCurrentMonth} from "../helpers"
+import {InvoiceData} from "../types/invoice"
 
 export async function generateNewInvoice(req: Request, res: Response): Promise<Response> {
 
