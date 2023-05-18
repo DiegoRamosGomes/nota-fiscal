@@ -8,9 +8,6 @@ module.exports = {
     externals: [
         nodeExternals()
     ],
-    plugins: [
-        new Dotenv()
-    ],
     node: {
         __filename: false,
         __dirname: false,
